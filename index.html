@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles\main.css">
+  <link rel="stylesheet" href="styles\temas.css">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="tema1">
+  <div class="calculadora tema1">
+    <div class="calculadora-header tema1">
+      <p>calc</p>
+      <div class="calculadora-header-controle-temas tema1">
+        <p>THEME</p>
+        <div class="calculadora-header-controle-temas-indicadores tema1">
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+        </div>
+        <div class="calculadora-header-temas-controle-botao-fundo tema1">
+          <div class="calculadora-header-temas-controle-botao tema1" id="botao-controle-tema"></div>
+        </div>
+      </div>
+    </div>
+    <textarea class="calculadora-display tema1" disabled>000</textarea>
+    <div class="calculadora-menu tema1">
+      <button class="calculadora-menu-botao tema1">7</button>
+      <button class="calculadora-menu-botao tema1">8</button>
+      <button class="calculadora-menu-botao tema1">9</button>
+      <button class="calculadora-menu-botao tema1 variante2">DEL</button>
+      <button class="calculadora-menu-botao tema1">4</button>
+      <button class="calculadora-menu-botao tema1">5</button>
+      <button class="calculadora-menu-botao tema1">6</button>
+      <button class="calculadora-menu-botao tema1">+</button>
+      <button class="calculadora-menu-botao tema1">1</button>
+      <button class="calculadora-menu-botao tema1">2</button>
+      <button class="calculadora-menu-botao tema1">3</button>
+      <button class="calculadora-menu-botao tema1">-</button>
+      <button class="calculadora-menu-botao tema1">.</button>
+      <button class="calculadora-menu-botao tema1">0</button>
+      <button class="calculadora-menu-botao tema1">/</button>
+      <button class="calculadora-menu-botao tema1">x</button>
+      <button class="calculadora-menu-botao tema1 variante2" id="botao-reset">RESET</button>
+      <button class="calculadora-menu-botao tema1 variante3" id="botao-igual">=</button>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="scripts\temas.js"></script>
+</body>
+</html>

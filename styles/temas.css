@@ -1,0 +1,103 @@
+body.tema1{
+    background-color: hsl(222, 26%, 31%);
+    color:  hsl(0, 0%, 100%);
+}
+
+.calculadora-menu.tema1, .calculadora-header-temas-controle-botao-fundo.tema1{
+    background-color: hsl(223, 31%, 20%)
+}
+
+.calculadora-display.tema1 {
+    background-color: hsl(224, 36%, 15%);
+    color: hsl(0, 0%, 100%);
+}
+
+.calculadora-menu-botao.tema1 {
+    background-color: hsl(30, 25%, 89%);
+    border: 0px;
+    color: hsl(221, 14%, 31%);
+    box-shadow:  0px 4px hsl(28, 16%, 65%);
+}
+
+.calculadora-menu-botao.tema1:hover{
+    background-color: hsl(30, 47%, 94%);
+}
+
+.calculadora-menu-botao.tema1.variante2 {
+    background-color: hsl(225, 21%, 49%);
+    border: 0px;
+    color: hsl(0, 0%, 100%);
+    box-shadow:  0px 4px hsl(224, 28%, 35%);
+}
+
+.calculadora-menu-botao.tema1.variante2:hover{
+    background-color: hsl(225, 27%, 57%);
+}
+
+.calculadora-menu-botao.tema1.variante3 {
+    background-color: hsl(6, 63%, 50%);
+    border: 0px;
+    color: hsl(0, 0%, 100%);
+    box-shadow:  0px 4px hsl(6, 70%, 34%);
+}
+
+.calculadora-menu-botao.tema1.variante3:hover{
+    background-color: hsl(6, 75%, 55%);
+}
+
+.calculadora-header-temas-controle-botao.tema1 {
+    background-color: hsl(6, 63%, 50%);
+}
+
+/**TEMA 2 **/
+
+body.tema2{
+    background-color: hsl(0, 0%, 90%);
+    color:  hsl(0, 0%, 100%);
+}
+
+.calculadora-menu.tema2, .calculadora-header-temas-controle-botao-fundo.tema2{
+    background-color: hsl(223, 31%, 20%)
+}
+
+.calculadora-display.tema2 {
+    background-color: hsl(224, 36%, 15%);
+    color: hsl(0, 0%, 100%);
+}
+
+.calculadora-menu-botao.tema2 {
+    background-color: hsl(30, 25%, 89%);
+    border: 0px;
+    color: hsl(221, 14%, 31%);
+    box-shadow:  0px 4px hsl(28, 16%, 65%);
+}
+
+.calculadora-menu-botao.tema2:hover{
+    background-color: hsl(30, 47%, 94%);
+}
+
+.calculadora-menu-botao.tema2.variante2 {
+    background-color: hsl(225, 21%, 49%);
+    border: 0px;
+    color: hsl(0, 0%, 100%);
+    box-shadow:  0px 4px hsl(224, 28%, 35%);
+}
+
+.calculadora-menu-botao.tema2.variante2:hover{
+    background-color: hsl(225, 27%, 57%);
+}
+
+.calculadora-menu-botao.tema2.variante3 {
+    background-color: hsl(6, 63%, 50%);
+    border: 0px;
+    color: hsl(0, 0%, 100%);
+    box-shadow:  0px 4px hsl(6, 70%, 34%);
+}
+
+.calculadora-menu-botao.tema2.variante3:hover{
+    background-color: hsl(6, 75%, 55%);
+}
+
+.calculadora-header-temas-controle-botao.tema2 {
+    background-color: hsl(6, 63%, 50%);
+}

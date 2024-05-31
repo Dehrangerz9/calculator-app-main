@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+body {
+    display: inline;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+}
+
+body, button, textarea{
+    font-size: 32px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 800;
+}
+
+
+.calculadora {
+    width: 500px;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.calculadora-header{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.calculadora-header * {
+    margin: 0px;
+}
+
+.calculadora-header p{
+    flex:25%
+}
+
+.calculadora-header-controle-temas {
+    display: grid;
+    grid-template-areas: 
+        ". indicador-tema"
+        "texto botao" 
+    ;
+    grid-template-rows: auto;
+    flex: 25%;
+    font-size: 15px;
+}
+
+.calculadora-header-controle-temas-indicadores {
+    grid-area: indicador-tema;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.calculadora-header-controle-temas > p {
+    grid-area: texto;
+    align-self: center;
+    text-align: right;
+    font-size: 0.8 rem;
+}
+
+.calculadora-header-temas-controle {
+    height: 50%;
+    display: grid;
+    flex: 15%;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: end;
+}
+
+
+.calculadora-header-temas-controle-botao-fundo{
+    grid-area: botao;
+    border-radius: 25px;
+
+    align-items: center;
+    justify-items: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px;
+}
+
+.calculadora-header-temas-controle-botao {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+.calculadora-display {
+    width: 100%;
+    height: 75px;
+    resize: none;
+    
+    text-align: right;
+}
+
+.calculadora-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 7px;
+    column-gap: 5px;
+    width: 100%;
+    padding: 5px;
+    
+}
+
+.calculadora-menu-botao {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+#botao-reset, #botao-igual {
+    grid-column-end: span 2;
+}

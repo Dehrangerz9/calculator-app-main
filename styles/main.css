@@ -98,7 +98,7 @@ body, button, textarea{
     width: 100%;
     height: 75px;
     resize: none;
-    
+
     text-align: right;
 }
 
@@ -123,4 +123,8 @@ body, button, textarea{
 
 #botao-reset, #botao-igual {
     grid-column-end: span 2;
+}
+
+.calculadora-menu-botao:hover, .calculadora-header-temas-controle-botao:hover{
+    cursor:pointer;
 }

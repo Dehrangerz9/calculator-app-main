@@ -1,4 +1,3 @@
-// Seleciona o botão pelo ID
 const botaoControleTema = document.getElementById('botao-controle-tema');
 let temaAtual = 1;
 function alterarTema(){

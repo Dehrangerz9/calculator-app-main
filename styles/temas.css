@@ -49,55 +49,113 @@ body.tema1{
     background-color: hsl(6, 63%, 50%);
 }
 
-/**TEMA 2 **/
+/** TEMA 2 **/
 
-body.tema2{
-    background-color: hsl(0, 0%, 90%);
-    color:  hsl(0, 0%, 100%);
+body.tema2 {
+    background-color: hsl(0, 0%, 90%); /* Light gray */
+    color: hsl(60, 10%, 19%)
 }
 
-.calculadora-menu.tema2, .calculadora-header-temas-controle-botao-fundo.tema2{
-    background-color: hsl(223, 31%, 20%)
+.calculadora-menu.tema2, .calculadora-header-temas-controle-botao-fundo.tema2 {
+    background-color: hsl(0, 5%, 81%); /* Grayish red */
 }
 
 .calculadora-display.tema2 {
-    background-color: hsl(224, 36%, 15%);
-    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 93%); /* Very light gray */
+    color: hsl(0, 0%, 100%); /* White */
 }
 
 .calculadora-menu-botao.tema2 {
-    background-color: hsl(30, 25%, 89%);
+    background-color: hsl(45, 7%, 89%); /* Light grayish yellow */
     border: 0px;
-    color: hsl(221, 14%, 31%);
-    box-shadow:  0px 4px hsl(28, 16%, 65%);
+    color: hsl(60, 10%, 19%); /* Very dark grayish yellow */
+    box-shadow: 0px 4px hsl(35, 11%, 61%); /* Dark grayish orange */
 }
 
-.calculadora-menu-botao.tema2:hover{
-    background-color: hsl(30, 47%, 94%);
+.calculadora-menu-botao.tema2:hover {
+    background-color: hsl(30, 47%, 94%); /* Slightly lighter background for hover */
 }
 
 .calculadora-menu-botao.tema2.variante2 {
-    background-color: hsl(225, 21%, 49%);
+    background-color: hsl(185, 42%, 37%); /* Dark moderate cyan */
     border: 0px;
-    color: hsl(0, 0%, 100%);
-    box-shadow:  0px 4px hsl(224, 28%, 35%);
+    color: hsl(0, 0%, 100%); /* White */
+    box-shadow: 0px 4px hsl(185, 58%, 25%); /* Very dark cyan */
 }
 
-.calculadora-menu-botao.tema2.variante2:hover{
-    background-color: hsl(225, 27%, 57%);
+.calculadora-menu-botao.tema2.variante2:hover {
+    background-color: hsl(185, 50%, 47%); /* Slightly lighter cyan for hover */
 }
 
 .calculadora-menu-botao.tema2.variante3 {
-    background-color: hsl(6, 63%, 50%);
+    background-color: hsl(25, 98%, 40%); /* Orange */
     border: 0px;
-    color: hsl(0, 0%, 100%);
-    box-shadow:  0px 4px hsl(6, 70%, 34%);
+    color: hsl(0, 0%, 100%); /* White */
+    box-shadow: 0px 4px hsl(25, 99%, 27%); /* Dark orange */
 }
 
-.calculadora-menu-botao.tema2.variante3:hover{
-    background-color: hsl(6, 75%, 55%);
+.calculadora-menu-botao.tema2.variante3:hover {
+    background-color: hsl(25, 100%, 45%); /* Slightly lighter orange for hover */
 }
 
 .calculadora-header-temas-controle-botao.tema2 {
-    background-color: hsl(6, 63%, 50%);
+    background-color: hsl(25, 98%, 40%); /* Orange */
+}
+
+/** TEMA 3 **/
+
+body.tema3 {
+    background-color: hsl(268, 75%, 9%); /* Very dark violet */
+    color: hsl(52, 100%, 62%);
+}
+
+.calculadora-menu.tema3, .calculadora-header-temas-controle-botao-fundo.tema3 {
+    background-color: hsl(268, 71%, 12%); /* Very dark violet */
+}
+
+.calculadora-display.tema3 {
+    background-color: hsl(268, 71%, 12%); /* Very dark violet */
+    color: hsl(52, 100%, 62%); /* Light yellow */
+}
+
+.calculadora-menu-botao.tema3 {
+    background-color: hsl(268, 47%, 21%); /* Very dark violet */
+    border: 0px;
+    color: hsl(52, 100%, 62%); /* Light yellow */
+    box-shadow: 0px 4px hsl(290, 70%, 36%); /* Dark magenta */
+}
+
+.calculadora-menu-botao.tema3:hover {
+    background-color: hsl(268, 53%, 27%); /* Slightly lighter violet for hover */
+}
+
+.calculadora-menu-botao.tema3.variante3 {
+    background-color: hsl(176, 100%, 44%); /* Pure cyan */
+    border: 0px;
+    color: hsl(198, 20%, 13%); /* Very dark blue */
+    box-shadow: 0px 4px hsl(177, 92%, 70%); /* Soft cyan */
+}
+
+.calculadora-menu-botao.tema3.variante3:hover {
+    background-color: hsl(176, 100%, 50%); /* Slightly lighter cyan for hover */
+}
+
+.calculadora-menu-botao.tema3.variante2 {
+    background-color: hsl(281, 89%, 26%); /* Dark violet */
+    border: 0px;
+    color: hsl(0, 0%, 100%); /* White */
+    box-shadow: 0px 4px hsl(285, 91%, 52%); /* Vivid magenta */
+}
+
+.calculadora-menu-botao.tema3.variante2:hover {
+    background-color: hsl(281, 100%, 30%); /* Slightly lighter violet for hover */
+}
+
+.calculadora-header-temas-controle-botao.tema3 {
+    background-color: hsl(176, 100%, 44%); /* Pure cyan */
+}
+
+body, .calculadora-menu, .calculadora-header-temas-controle-botao-fundo, 
+.calculadora-display, .calculadora-menu-botao, .calculadora-header-temas-controle-botao {
+    transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
 }

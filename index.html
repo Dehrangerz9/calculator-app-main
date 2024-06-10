@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles\main.css">
   <link rel="stylesheet" href="styles\temas.css">
-  
+  <script src="https://unpkg.com/mathjs@13.0.0/lib/browser/math.js"></script>
   <title>Frontend Mentor | Calculator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -32,7 +32,7 @@
         </div>
       </div>
     </div>
-    <textarea class="calculadora-display tema1" disabled id="calculadora-display">000</textarea>
+    <textarea class="calculadora-display tema1" disabled id="calculadora-display"></textarea>
     <div class="calculadora-menu tema1">
       <button class="calculadora-menu-botao tema1">7</button>
       <button class="calculadora-menu-botao tema1">8</button>
@@ -45,11 +45,11 @@
       <button class="calculadora-menu-botao tema1">1</button>
       <button class="calculadora-menu-botao tema1">2</button>
       <button class="calculadora-menu-botao tema1">3</button>
-      <button class="calculadora-menu-botao tema1">-</button>
-      <button class="calculadora-menu-botao tema1">.</button>
+      <button class="calculadora-menu-botao tema1" id="botao-subtracao">-</button>
+      <button class="calculadora-menu-botao tema1" id="botao-ponto">.</button>
       <button class="calculadora-menu-botao tema1">0</button>
-      <button class="calculadora-menu-botao tema1">/</button>
-      <button class="calculadora-menu-botao tema1">x</button>
+      <button class="calculadora-menu-botao tema1" id="botao-dividir">/</button>
+      <button class="calculadora-menu-botao tema1" id="botao-multiplicar">x</button>
       <button class="calculadora-menu-botao tema1 variante2" id="botao-reset">RESET</button>
       <button class="calculadora-menu-botao tema1 variante3" id="botao-igual">=</button>
     </div>
